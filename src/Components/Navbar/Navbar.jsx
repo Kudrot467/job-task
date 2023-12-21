@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
 
   const navLinks=<>
-  
   <li className="mr-2">
         {" "}
         <NavLink
@@ -50,9 +49,9 @@ const Navbar = () => {
               color: isActive ? "#F8601F" : "white",
             };
           }}
-          to="/allAssignments"
+          to="/tasks"
         >
-          Assignments
+         Tasks
         </NavLink>{" "}
       </li>
 
