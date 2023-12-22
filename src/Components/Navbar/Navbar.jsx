@@ -122,6 +122,19 @@ const Navbar = () => {
                     <span className="badge indicator-item badge-secondary bg-green-500"></span>
                   </a>
                 </li>
+                <li className="mr-2">
+                      {" "}
+                      <div
+                        style={{
+                          backgroundColor: "#F8601F",
+                          fontSize: "20px",
+                          fontWeight: "600",
+                          color: "white",
+                        }}
+                      >
+                        <NavLink to="/dashboard/userHome">Dashboard</NavLink>{" "}
+                      </div>
+                    </li>
                 <li className="w-full">
                   <button
                     onClick={signOut}
